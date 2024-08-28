@@ -1,0 +1,19 @@
+.content-div{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(231, 232, 232); */
+}
+
+.bt-home{
+    border-radius: 5px;
+    width:40%;
+    height: 5%;
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,144 @@
+body{
+  overflow: hidden;
+}
+.mobile-token{
+  display: none;
+}
+.mobile-main-heading{
+  display: none;
+}
+.mob-underline{
+  display: none;
+}
+.heading{
+  display: none;
+}
+.container-home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85vh;
+  justify-content: center;
+}
+.second-div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+.cover-img{
+  width: 500px;
+  height: 500px;
+}
+.expired-div{
+  background-color: rgb(250, 208, 208);
+  padding: 7px 15px 1px 5px;
+  border-radius: 3px;
+}
+.invalid-div{
+  background-color: rgb(250, 208, 208);
+  padding: 7px 15px 1px 5px;
+  border-radius: 3px;
+}
+.button{
+    border-radius: 50px;
+    width: 200px;
+    height: 40px;
+    background: rgb(4, 128, 177);
+    color: white;
+    border: none;
+}
+.button:hover{
+    background: white;
+    color: rgb(4, 128, 177);
+    border: 1px solid rgb(4, 128, 177);
+    transition: 0.5s;
+}
+.main-heading{
+  margin-left: 25px;
+  margin-top: 20px;
+  letter-spacing: 7px;
+  color: rgb(4, 128, 177);
+}
+.sub-heading{
+  color: rgb(4, 128, 177);
+}
+.main-heading-div{
+  display: flex;
+  justify-content: space-between;
+}
+.token{
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.sub-heading{
+  letter-spacing: 7px;
+}
+@media (max-width: 767px) {
+  .second-div{
+    display: none;
+  }
+  .main-heading{
+    display: none;
+  }
+  .main-heading-div{
+    display: none;
+  }
+  .mobile-main-heading{
+    display: block;
+    letter-spacing: 2px;
+    color: #0480b1;
+    font-size: xx-large;
+  }
+  .mobile-token{
+    display: block;
+    margin-bottom: 50px;
+  }
+  .mob-underline{
+    display: block;
+  }
+  .container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .main-heading-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .token{
+    align-items: center;
+  }
+  .token-div{
+   display: none;
+  }
+  .button{
+    border-radius: 5px;
+    width:100%;
+    height: 50px;
+  }
+  .booking_details{
+    height: 100%;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px #d7d7d7;
+  }
+ .sub-heading{
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: x-large;
+  color: rgb(4, 128, 177);
+ }
+ .mobile-logo-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+}

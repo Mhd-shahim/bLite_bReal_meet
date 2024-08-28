@@ -1,0 +1,28 @@
+.main-div{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.room{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 600px) {
+    .room{
+        height: 100%;
+        width:100%;
+    }
+    .main-div{
+        flex-direction: column;
+        background-color: white;
+    }
+    .heading{
+        height: 10rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  }
